@@ -22,12 +22,12 @@ public class LocationModle implements  ILocationModle {
             @Override
             public void call(Subscriber<? super Location> subscriber) {
 
-                Retrofit retrofit = new Retrofit.Builder().baseUrl(MainActivity.BASE_URL)
+                /*Retrofit retrofit = new Retrofit.Builder().baseUrl(MainActivity.BASE_URL)
                         .addConverterFactory(GsonConverterFactory.create())
                         .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                         .build();
                 ApiService service = retrofit.create(ApiService.class);
-                Observable<Location> observable = service.getLocations(longitude,latitude);
+                Observable<Location> observable = service.getLocations(longitude,latitude);*/
 
                 /*if (user == null) {
                     subscriber.onError(new Exception("Location = null"));
